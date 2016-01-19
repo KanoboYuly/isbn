@@ -15,6 +15,8 @@
 		F57257E91C4841ED006B1FA0 /* IsbnSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57257E81C4841ED006B1FA0 /* IsbnSearchTests.swift */; };
 		F57257F41C4841ED006B1FA0 /* IsbnSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57257F31C4841ED006B1FA0 /* IsbnSearchUITests.swift */; };
 		F57258021C48471C006B1FA0 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57258011C48471C006B1FA0 /* splash.jpg */; };
+		F57258041C498ECB006B1FA0 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57258031C498ECA006B1FA0 /* book.jpg */; };
+		F57E55941C4D802E00C42123 /* noCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E55931C4D802E00C42123 /* noCover.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F57257F31C4841ED006B1FA0 /* IsbnSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsbnSearchUITests.swift; sourceTree = "<group>"; };
 		F57257F51C4841ED006B1FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F57258011C48471C006B1FA0 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		F57258031C498ECA006B1FA0 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		F57E55931C4D802E00C42123 /* noCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noCover.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				F57257D71C4841EC006B1FA0 /* Main.storyboard */,
 				F57257DA1C4841EC006B1FA0 /* Assets.xcassets */,
 				F57258011C48471C006B1FA0 /* splash.jpg */,
+				F57258031C498ECA006B1FA0 /* book.jpg */,
+				F57E55931C4D802E00C42123 /* noCover.jpg */,
 				F57257DC1C4841EC006B1FA0 /* LaunchScreen.storyboard */,
 				F57257DF1C4841EC006B1FA0 /* Info.plist */,
 			);
@@ -233,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F57258021C48471C006B1FA0 /* splash.jpg in Resources */,
+				F57258041C498ECB006B1FA0 /* book.jpg in Resources */,
+				F57E55941C4D802E00C42123 /* noCover.jpg in Resources */,
 				F57257DE1C4841EC006B1FA0 /* LaunchScreen.storyboard in Resources */,
 				F57257DB1C4841EC006B1FA0 /* Assets.xcassets in Resources */,
 				F57257D91C4841EC006B1FA0 /* Main.storyboard in Resources */,
@@ -490,6 +498,7 @@
 				F57257FA1C4841ED006B1FA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F57257FB1C4841ED006B1FA0 /* Build configuration list for PBXNativeTarget "IsbnSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				F57257FD1C4841ED006B1FA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F57257FE1C4841ED006B1FA0 /* Build configuration list for PBXNativeTarget "IsbnSearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				F57258001C4841ED006B1FA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

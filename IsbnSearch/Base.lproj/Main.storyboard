@@ -26,15 +26,6 @@
                                     <rect key="frame" x="20" y="133" width="73" height="21"/>
                                 </variation>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="wYW-3l-PYF">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="179" width="277" height="285"/>
-                                </variation>
-                            </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISBN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nA1-Yw-eat">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -68,32 +59,85 @@
                                     <rect key="frame" x="116" y="28" width="125" height="36"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPs-d8-2Wu">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="185" width="360" height="36"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dg8-hG-fl2">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="162" width="289" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB1-Bk-rvN">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="224" width="289" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8CL-3S-SaT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="128" y="322" width="101" height="128"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYW-3l-PYF">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="249" width="289" height="61"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.76208674909999996" green="0.92276883129999998" blue="0.99950653310000004" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="WGD-Hv-08k"/>
-                                <exclude reference="wYW-3l-PYF"/>
                                 <exclude reference="nA1-Yw-eat"/>
                                 <exclude reference="Z8G-pP-U5W"/>
                                 <exclude reference="Sho-py-u5L"/>
+                                <exclude reference="nPs-d8-2Wu"/>
+                                <exclude reference="Dg8-hG-fl2"/>
+                                <exclude reference="UB1-Bk-rvN"/>
+                                <exclude reference="8CL-3S-SaT"/>
+                                <exclude reference="wYW-3l-PYF"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="WGD-Hv-08k"/>
-                                <include reference="wYW-3l-PYF"/>
                                 <include reference="nA1-Yw-eat"/>
                                 <include reference="Z8G-pP-U5W"/>
                                 <include reference="Sho-py-u5L"/>
+                                <include reference="nPs-d8-2Wu"/>
+                                <include reference="Dg8-hG-fl2"/>
+                                <include reference="UB1-Bk-rvN"/>
+                                <include reference="8CL-3S-SaT"/>
+                                <include reference="wYW-3l-PYF"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="authorsLabel" destination="UB1-Bk-rvN" id="JBh-zn-7AV"/>
                         <outlet property="button" destination="Z8G-pP-U5W" id="GeC-0C-oNF"/>
+                        <outlet property="cover" destination="8CL-3S-SaT" id="Mjo-7E-KjX"/>
                         <outlet property="isbnTextfield" destination="nA1-Yw-eat" id="sci-P1-A4h"/>
+                        <outlet property="isbnTitle" destination="nPs-d8-2Wu" id="Mqx-bO-PnO"/>
                         <outlet property="resultsTextview" destination="wYW-3l-PYF" id="mFm-1g-Sim"/>
+                        <outlet property="titleLabel" destination="Dg8-hG-fl2" id="OGT-I3-8qr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
